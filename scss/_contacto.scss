@@ -1,0 +1,34 @@
+.mainContacto {
+    div {
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+
+    .sectionForm {
+        width: 400px;
+
+        form {
+            fieldset {
+                display: flex;
+                justify-content: center;
+                // justify-content: center;
+                border: $amarillo solid 3px;
+                display: inline-table;
+                /* padding-inline-start: 20px; */
+
+                label {
+                    justify-content: center;
+                }
+
+                input {
+                    margin: 5px;
+                }
+
+                .border:focus {
+                    outline: $amarillo auto;
+                }
+            }
+        }
+    }
+}
+}

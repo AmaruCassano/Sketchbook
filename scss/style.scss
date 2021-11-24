@@ -1,0 +1,128 @@
+// VARIABLES COLOR
+
+$amarillo: #efba26;
+
+.breadcrumb-item {
+    color: $amarillo;
+    // text-decoration: none;
+}
+.breadcrumb-item:hover {
+    color: black;
+}
+
+.breadcrumb-item.active {
+    color: #f3d993
+} 
+.breadcrumb-item.active::before{
+    color: $amarillo;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+    // SCROLL BAR
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #888;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: $amarillo;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        
+        background: #f3d993;
+    }
+}
+
+@font-face {
+    font-family: "amoresfreefont";
+    src: url("../fonts/amoresfreefont.ttf");
+    font-weight: 700;
+}
+
+h1 {
+    color: $amarillo;
+    font-family: amoresfreefont;
+    font-size: 7.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* display: block; */
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
+
+em {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: $amarillo;
+    font-weight: bold;
+}
+
+section h4 {
+    color: $amarillo;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.videoSketchbook {
+    margin: auto;
+    display: flex;
+    align-content: center;
+    border-radius: 50px 0 50px 0;
+
+}
+
+
+// EACH PARA ENTREGA SASS II
+
+
+@each $producto in 1,
+2,
+3,
+4,
+5 {
+    .producto-#{$producto} {
+        background-image: url("../img/each/producto-#{$producto}.jpg");
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+        border: $amarillo 2px solid;
+    }
+}
+
+// CIERRE ENTREGA SASS II
+
+
+
+@import "_header";
+@import "_main";
+@import "_footer";
+
+@import "_sobreMi";
+@import "_galeria";
+@import "_index";
+@import "_contacto";
+
+@import "queriesMin769";
+@import "queriesMin481";
+
+@import "404"

@@ -1,0 +1,52 @@
+footer {
+    display: flex;
+    margin-top: auto;
+    background-image: linear-gradient(rgba(255, 0, 0, 0)5%, $amarillo);
+    justify-content: center;
+    height: auto;
+
+    div {
+
+        h5 {
+            text-align: center;
+            color: black;
+        }
+
+        .fa-facebook,
+        .fa-instagram,
+        .fa-youtube {
+            font-size: 40px;
+            padding-right: 30px;
+            color: black;
+        }
+
+        .fa-facebook:hover {
+            // display: none;
+            transform: scale(1.2);
+            color: blue;
+            transition-duration: 0.5s;
+        }
+
+        .fa-youtube:hover {
+            transform: scale(1.2);
+            color: red;
+            transition-duration: 0.5s;
+        }
+
+        .fa-instagram:hover {
+            transform: scale(1.2);
+            color: violet;
+            transition-duration: 0.5s;
+        }
+    }
+
+    .footer__div--contacto {
+        display: flex;
+        flex-direction: column;
+        .div__p--contacto {
+            // font-size: 10px;
+            padding: 0;
+        }
+    
+    }
+}

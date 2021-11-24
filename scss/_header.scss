@@ -1,0 +1,57 @@
+.header__div {
+    .navbar {
+        background-color: $amarillo !important;
+
+        .container-fluid {
+
+            .navbar-brand {
+                .header__div__nav__div__a__logo {
+                    height: 60px;
+                    display: flex;
+                    justify-content: flex-start;
+                }
+
+                .logoReduccion {
+                    display: none;
+                    height: 80px;
+                    margin: -10px;
+                }
+            }
+
+            div {
+                button {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
+
+                div {
+                    
+                    .navbar-nav {
+                        margin-top: 60px;
+                        li {
+                            a {
+                                font-size: 20px;
+                                text-align: right;
+                            }
+
+                            ul {
+                                padding: 0;
+                                background-color: #e7c15a79;
+                                min-width: 0;
+                                // transition: 500ms;
+
+                                li {
+                                    a:hover {
+                                        background-color: $amarillo;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
