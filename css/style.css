@@ -236,6 +236,7 @@ footer .footer__div--contacto .div__p--contacto {
   border: 10px solid #efba26;
   display: block;
   margin: auto;
+  height: 400px;
 }
 
 .carousel-inner {
