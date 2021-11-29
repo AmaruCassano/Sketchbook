@@ -177,13 +177,6 @@ body main {
   justify-content: center;
   padding-bottom: 18vh;
 }
-body main i {
-  position: fixed;
-  right: 100px;
-  bottom: 20px;
-  font-size: 50px;
-  color: green;
-}
 body aside section img {
   height: 100px;
   border: #efba26 solid 5px;
@@ -239,32 +232,30 @@ footer .footer__div--contacto .div__p--contacto {
   height: 400px;
 }
 
-.carousel-inner {
+main .carousel-inner {
   display: flex;
   justify-content: flex-start;
   margin: 0;
   overflow: hidden;
 }
-.carousel-inner .carousel-item .d-block {
+main .carousel-inner .carousel-item .d-block {
   margin: auto;
   -o-object-fit: scale-down;
      object-fit: scale-down;
   height: 70vh;
   width: 100%;
 }
-
-.carousel-control-prev .carousel-control-prev-icon {
+main .carousel-control-prev .carousel-control-prev-icon {
   display: none;
 }
-.carousel-control-prev .fa-chevron-left {
+main .carousel-control-prev .fa-chevron-left {
   font-size: 30px;
   color: #efba26;
 }
-
-.carousel-control-next .carousel-control-next-icon {
+main .carousel-control-next .carousel-control-next-icon {
   display: none;
 }
-.carousel-control-next .fa-chevron-right {
+main .carousel-control-next .fa-chevron-right {
   font-size: 30px;
   color: #efba26;
 }
