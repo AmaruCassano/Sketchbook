@@ -308,6 +308,9 @@ aside section div {
     grid-column: 1/3;
     grid-row: 2/4;
   }
+  .bodyIndex main .julianaProfile {
+    max-width: 60vw;
+  }
   .bodyIndex main .videoSketchbook {
     margin: auto;
     display: flex;
