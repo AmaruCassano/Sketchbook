@@ -47,7 +47,7 @@ h1 {
   font-size: 7.5em;
   margin-top: 0;
   margin-bottom: 0;
-  /* display: block; */
+  line-height: 0.7;
   text-align: center;
 }
 
@@ -277,23 +277,37 @@ aside section div {
   justify-content: center;
 }
 .mainContacto div .sectionForm {
-  width: 400px;
+  width: 50vw;
 }
 .mainContacto div .sectionForm form fieldset {
   display: flex;
   justify-content: center;
-  border: #efba26 solid 3px;
-  display: inline-table;
-  /* padding-inline-start: 20px; */
+  border: #efba26 dashed 3px;
+  flex-direction: column;
+  align-items: stretch;
+}
+.mainContacto div .sectionForm form fieldset legend {
+  text-align: center;
 }
 .mainContacto div .sectionForm form fieldset label {
+  display: flex;
   justify-content: center;
 }
 .mainContacto div .sectionForm form fieldset input {
   margin: 5px;
 }
+.mainContacto div .sectionForm form fieldset .newsletter {
+  display: block;
+}
 .mainContacto div .sectionForm form fieldset .border:focus {
   outline: #efba26 auto;
+}
+.mainContacto div .sectionForm form fieldset div .button__color {
+  width: 100px;
+  border-radius: 16px;
+  background-color: #efba26;
+  color: black;
+  display: block;
 }
 
 @media only screen and (min-width: 769px) {

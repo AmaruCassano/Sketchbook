@@ -4,31 +4,49 @@
         // flex-direction: column;
         justify-content: center;
 
-    .sectionForm {
-        width: 400px;
+        .sectionForm {
+            width: 50vw;
 
-        form {
-            fieldset {
-                display: flex;
-                justify-content: center;
-                // justify-content: center;
-                border: $amarillo solid 3px;
-                display: inline-table;
-                /* padding-inline-start: 20px; */
-
-                label {
+            form {
+                fieldset {
+                    display: flex;
                     justify-content: center;
-                }
+                    border: $amarillo dashed 3px;
+                    flex-direction: column;
+                    align-items: stretch;
 
-                input {
-                    margin: 5px;
-                }
+                    legend {
+                        text-align: center;
+                    }
 
-                .border:focus {
-                    outline: $amarillo auto;
+                    label {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    input {
+                        margin: 5px;
+                    }
+
+                    .newsletter {
+                        display: block;
+                    }
+
+                    .border:focus {
+                        outline: $amarillo auto;
+                    }
+
+                    div {
+                        .button__color {
+                            width: 100px;
+                            border-radius: 16px;
+                            background-color: $amarillo;
+                            color: black;
+                            display: block;
+                        }
+                    }
                 }
             }
         }
     }
-}
 }
