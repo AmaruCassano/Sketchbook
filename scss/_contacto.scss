@@ -1,42 +1,56 @@
 .mainContacto {
     div {
-        display: flex;
-        // flex-direction: column;
-        justify-content: center;
 
         .sectionForm {
-            width: 50vw;
 
             form {
+                display: flex;
+                justify-content: center;
+                
                 fieldset {
-                    display: flex;
+                    width: 80vw;
                     justify-content: center;
+                    text-align: center;
                     border: $amarillo dashed 3px;
-                    flex-direction: column;
-                    align-items: stretch;
-
+                    
                     legend {
                         text-align: center;
                     }
 
                     label {
-                        display: flex;
+                        display: block;
+                        text-align: center;
                         justify-content: center;
                     }
 
                     input {
+                        width: 80%;
+                        margin: 5px;
+                        
+                    }
+                    
+                    textarea {
+                        width: 80%;
+                        margin: 5px;
+                    }
+                    
+                    select {
                         margin: 5px;
                     }
 
                     .newsletter {
-                        display: block;
+                        display: inline;
                     }
-
+                    .checkbox {
+                        width: auto;
+                    }
                     .border:focus {
                         outline: $amarillo auto;
                     }
 
                     div {
+                        display: flex;
+                        justify-content: space-evenly;
                         .button__color {
                             width: 100px;
                             border-radius: 16px;

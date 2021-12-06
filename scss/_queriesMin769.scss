@@ -11,9 +11,6 @@
             grid-column: 1/3;
             grid-row: 2/4;
 
-            .julianaProfile {
-                max-width: 60vw;
-            }
             .videoSketchbook {
                 margin: auto;
                 display: flex;
@@ -34,10 +31,17 @@
                 text-align: center;
             }
         }
-
+        
         footer {
             grid-column: 1/4;
             grid-row: 4/5;
         }
+    }
+    .fieldSet {
+        max-width: 50vw;
+    }
+    #julianaProfile {
+        max-width: 60vw;
+        // min-width: 30vw;
     }
 }

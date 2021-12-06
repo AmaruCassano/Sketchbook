@@ -5,17 +5,15 @@ main {
     justify-content: flex-start;
     margin: 0;
     overflow: hidden;
-    // max-width: 50%;
+
 
     .carousel-item {
-        // display: flex;
 
         .d-block {
             margin: auto;
             object-fit: scale-down;
             height: 70vh;
             width: 100%;
-            // max-height: 500px;
         }
     }
 }

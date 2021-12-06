@@ -171,7 +171,6 @@ body {
   flex-direction: column;
 }
 body main {
-  /* background-image: rgba(169, 169, 169, 0.596); */
   background-image: linear-gradient(rgba(169, 169, 169, 0.596) 90%, #efb92600);
   padding: 0%;
   justify-content: center;
@@ -229,7 +228,7 @@ footer .footer__div--contacto .div__p--contacto {
   border: 10px solid #efba26;
   display: block;
   margin: auto;
-  width: 40vw;
+  width: 60vw;
 }
 
 main .carousel-inner {
@@ -272,35 +271,47 @@ aside section div {
   justify-content: space-around;
 }
 
-.mainContacto div {
+.mainContacto div .sectionForm form {
   display: flex;
   justify-content: center;
-}
-.mainContacto div .sectionForm {
-  width: 50vw;
 }
 .mainContacto div .sectionForm form fieldset {
-  display: flex;
+  width: 80vw;
   justify-content: center;
+  text-align: center;
   border: #efba26 dashed 3px;
-  flex-direction: column;
-  align-items: stretch;
 }
 .mainContacto div .sectionForm form fieldset legend {
   text-align: center;
 }
 .mainContacto div .sectionForm form fieldset label {
-  display: flex;
+  display: block;
+  text-align: center;
   justify-content: center;
 }
 .mainContacto div .sectionForm form fieldset input {
+  width: 80%;
+  margin: 5px;
+}
+.mainContacto div .sectionForm form fieldset textarea {
+  width: 80%;
+  margin: 5px;
+}
+.mainContacto div .sectionForm form fieldset select {
   margin: 5px;
 }
 .mainContacto div .sectionForm form fieldset .newsletter {
-  display: block;
+  display: inline;
+}
+.mainContacto div .sectionForm form fieldset .checkbox {
+  width: auto;
 }
 .mainContacto div .sectionForm form fieldset .border:focus {
   outline: #efba26 auto;
+}
+.mainContacto div .sectionForm form fieldset div {
+  display: flex;
+  justify-content: space-evenly;
 }
 .mainContacto div .sectionForm form fieldset div .button__color {
   width: 100px;
@@ -322,9 +333,6 @@ aside section div {
     grid-column: 1/3;
     grid-row: 2/4;
   }
-  .bodyIndex main .julianaProfile {
-    max-width: 60vw;
-  }
   .bodyIndex main .videoSketchbook {
     margin: auto;
     display: flex;
@@ -345,6 +353,14 @@ aside section div {
   .bodyIndex footer {
     grid-column: 1/4;
     grid-row: 4/5;
+  }
+
+  .fieldSet {
+    max-width: 50vw;
+  }
+
+  #julianaProfile {
+    max-width: 60vw;
   }
 }
 @media only screen and (min-width: 481px) {
