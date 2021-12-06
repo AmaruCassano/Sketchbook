@@ -360,12 +360,8 @@ aside section div {
   }
 
   #julianaProfile {
-    max-width: 60vw;
-  }
-}
-@media only screen and (min-width: 481px) {
-  #julianaProfile {
-    width: 60vw;
+    width: 30vw;
+    min-width: 30vw;
   }
 }
 .videoSketchbook {
