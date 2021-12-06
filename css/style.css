@@ -364,15 +364,16 @@ aside section div {
     min-width: 30vw;
   }
 }
-.videoSketchbook {
-  margin: auto;
-  display: flex;
-  align-content: center;
-  border-radius: 50px 0 50px 0;
-  width: 80vw;
-  height: 300px;
+@media only screen and (min-width: 481px) {
+  .videoSketchbook {
+    margin: auto;
+    display: flex;
+    align-content: center;
+    border-radius: 50px 0 50px 0;
+    width: 80vw;
+    height: 300px;
+  }
 }
-
 .main404 {
   display: flex;
   flex-direction: column;
