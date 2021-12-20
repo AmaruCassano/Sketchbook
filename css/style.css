@@ -180,6 +180,10 @@ html body main {
   justify-content: center;
   padding-bottom: 18vh;
 }
+html body main section .locaciones {
+  text-align: center;
+  font-size: 30px;
+}
 html body aside section img {
   height: 100px;
   border: #efba26 solid 5px;
