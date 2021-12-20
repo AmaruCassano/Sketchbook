@@ -192,9 +192,9 @@ footer {
   background-image: linear-gradient(rgba(255, 0, 0, 0) 5%, #efba26);
   justify-content: center;
 }
-footer div h5 {
+footer div h2 {
   text-align: center;
-  color: black;
+  font-size: 25px;
 }
 footer div .fa-facebook,
 footer div .fa-instagram,
