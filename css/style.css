@@ -157,7 +157,10 @@ section h4 {
   background-color: #efba26;
 }
 
-body {
+html {
+  height: 100%;
+}
+html body {
   background-image: url(../img/ADAN.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -167,16 +170,17 @@ body {
   font-family: "Times New Roman", Times, serif;
   position: relative;
   max-width: 100vw;
-  min-height: 100vh;
+  min-height: 100%;
+  display: flex;
   flex-direction: column;
 }
-body main {
+html body main {
   background-image: linear-gradient(rgba(169, 169, 169, 0.596) 90%, #efb92600);
   padding: 0%;
   justify-content: center;
   padding-bottom: 18vh;
 }
-body aside section img {
+html body aside section img {
   height: 100px;
   border: #efba26 solid 5px;
   border-radius: 100%;
@@ -187,7 +191,6 @@ footer {
   margin-top: auto;
   background-image: linear-gradient(rgba(255, 0, 0, 0) 5%, #efba26);
   justify-content: center;
-  height: auto;
 }
 footer div h5 {
   text-align: center;

@@ -3,7 +3,7 @@ footer {
     margin-top: auto;
     background-image: linear-gradient(rgba(255, 0, 0, 0)5%, $amarillo);
     justify-content: center;
-    height: auto;
+    // height: auto;
 
     div {
 
@@ -42,9 +42,10 @@ footer {
     .footer__div--contacto {
         display: flex;
         flex-direction: column;
+
         .div__p--contacto {
             padding: 0;
         }
-    
+
     }
 }
